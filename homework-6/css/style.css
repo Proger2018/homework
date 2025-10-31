@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+.parent {
+    background: #e7e1e1;
+    border: 1px solid #000;
+    border-radius: 20px 0px 0px 20px;
+    height: 500px;
+    overflow: auto;
+}
+.child {
+    display: inline-block;
+    padding: 20px;
+    margin: 5px;
+    background: #9e7341;
+    border: 1px solid #773188;
+    border-radius: 20px;
+    width: 235px;
+    height: 200px;
+    text-align: left;
+    box-shadow: inset 2px 2px 2px #7c5121, inset -2px -2px 2px #7c5121
+}
