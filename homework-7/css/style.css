@@ -1,8 +1,8 @@
 body {
     background: #181E34;
     font-family: "Montserrat", "Arial", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
+    /* font-size: 16px;
+    font-weight: 400; */
     line-height: 150%;
     color: #fff;
 }
@@ -72,14 +72,14 @@ body {
     max-width: 436px;
 }
 
-.paragraph {
-    margin-bottom: 15px;
-}
-
 .hero-text span {
     color: #01a2cb;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+.paragraph {
+    margin-bottom: 15px;
 }
 
 .hero-buttons {
@@ -135,7 +135,7 @@ body {
 .cards-flex {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 -14px;
+    margin: 0 -14px;
     margin-bottom: -28px;
     padding-bottom: 30px;
 }
@@ -199,12 +199,12 @@ body {
     margin-bottom: 15px;
 }
 
-.footer-column {
+.footer-col {
     max-width: 200px;
     width: 100%;
 }
 
-.footer-column1 {
+.footer-col-ok {
     margin-right: 28px;
 }
 
